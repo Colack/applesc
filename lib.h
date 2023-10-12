@@ -1,4 +1,5 @@
-// lib.h file
+// Path: src/lib.h
+// Author: Jack Spencer
 
 #ifndef LIB_H
 #define LIB_H
@@ -22,6 +23,26 @@
 #define GITHUB "https://github.com/colack/applesC"
 #define ABOUT "A programming language written in C"
 #define AUTHOR_EMAIL "colackalpha@gmail.com"
+#define FUNNY_MESSAGE "If this shows up, something went wrong. :/"
+#define AUTHOR_GITHUB "https://github.com/colack"
+#define APPLES_WEBSITE "https://colack.github.io/applesc"
+#define APPLES_DOCS_WEBSITE "https://colack.github.io/applesc/docs"
+#define APPLES_GAF_WEBSITE "https://colack.github.io/applesc/gaf"
+
+#define TRUE 1
+#define FALSE 0
+
+#define DEBUG FALSE
+
+#define VERSION_COMMAND "version"
+#define AUTHOR_COMMAND "author"
+#define YEAR_COMMAND "year"
+#define LICENSE_COMMAND "license"
+#define INFO_COMMAND "info"
+#define PROGRAM_NAME_COMMAND "program_name"
+#define DOCS_COMMAND "docs"
+#define GITHUB_COMMAND "github"
+#define ABOUT_COMMAND "about"
 
 typedef struct {
     char *word;
