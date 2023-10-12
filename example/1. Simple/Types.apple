@@ -1,0 +1,46 @@
+connect "std" // This will connect (include) the standard library
+
+integer x = 5; // This will create a variable called x and set it to 5
+integer y = 10; // This will create a variable called y and set it to 10
+! integer z = x + y; // This will create a constant called z and set it to x + y. Constants cannot be changed
+
+character a = 'a'; // This will create a variable called a and set it to 'a'
+! character b = 'b'; // This will create a constant called b and set it to 'b'. Constants cannot be changed
+
+string s = "Hello World!"; // This will create a variable called s and set it to "Hello World!"
+! string t = "Hello World!"; // This will create a constant called t and set it to "Hello World!". Constants cannot be changed
+
+decimal d = 5.5; // This will create a variable called d and set it to 5.5
+! decimal e = 10.5; // This will create a constant called e and set it to 10.5. Constants cannot be changed
+
+boolean f = true; // This will create a variable called f and set it to true
+! boolean g = false; // This will create a constant called g and set it to false. Constants cannot be changed
+
+integer main() {
+    std.printStr(s); // This will print the string s (Hello World!)
+    std.printStr("Hello World!"); // This will print the string "Hello World!"
+
+    std.printInt(x); // This will print the integer x (5)
+    std.printInt(5); // This will print the integer 5
+
+    std.printChar(a); // This will print the character a ('a')
+    std.printChar('a'); // This will print the character 'a'
+
+    std.printDec(d); // This will print the decimal d (5.5)
+    std.printDec(5.5); // This will print the decimal 5.5
+
+    std.printBool(f); // This will print the boolean f (true)
+    std.printBool(true); // This will print the boolean true
+
+    return 0; // This will return 0
+}
+
+// This is a comment
+
+/++
+    This is a multi-line comment
+++/
+
+super helloWorld() { // This is a function called helloWorld
+    std.printStr("Hello World!"); // This will print the string "Hello World!"
+}

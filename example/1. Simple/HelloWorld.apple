@@ -1,0 +1,6 @@
+connect "std"
+
+super helloWorld() {
+    std.printStr("Hello World!);
+    std.printnl();
+}
