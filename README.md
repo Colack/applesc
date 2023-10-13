@@ -12,6 +12,10 @@ To compile a file, use the command `applesc -c <file>`.
 
 Apples does things a little different than most languages. The syntax is designed to be easy to read and write, and to be easy to learn.
 
+### Indentation
+
+Apples does not require indentation, but it is recommended to use it to make the code easier to read.
+
 ### Comments
 
 Comments are started with `//` and end at the end of the line.
