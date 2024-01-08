@@ -15,7 +15,7 @@
 
 #define VERSION "0.0.1" // indev version
 #define AUTHOR "Jack Spencer" // colack
-#define YEAR "2023"
+#define YEAR "2024"
 #define LICENSE "MIT"
 #define INFO "A programming language written in C"
 #define PROGRAM_NAME "apples"
