@@ -1,6 +1,3 @@
-// Path: src/lib.h
-// Author: Jack Spencer
-
 #ifndef LIB_H
 #define LIB_H
 
